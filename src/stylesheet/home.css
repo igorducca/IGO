@@ -147,3 +147,13 @@ header .mainHeaderTitle {
     border: none;
     background: none;
 }
+
+.fiverrGigs img{
+
+    cursor: pointer;
+
+    border: 5px solid var(--primaryPurple);
+
+    height: 250px;
+    width: 300px;
+}

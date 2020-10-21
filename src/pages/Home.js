@@ -7,6 +7,10 @@ import fiverr from '../assets/fiverr.png'
 import gmail from '../assets/gmail.png'
 import igo from '../assets/igo-icon.png'
 
+// Gig image imports
+
+import gig1 from '../assets/gigs/fiver-gig-1.png'
+
 export default function Home() {
 
     function mainButtonMouseEnter() {
