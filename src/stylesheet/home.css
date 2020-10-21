@@ -1,0 +1,149 @@
+:root {
+    --primaryPurple: #BB86FC;
+    --primaryDark: #000000;
+    --primarySurfaceColor: #121212;
+
+    --secondaryBlue: #03DAC6;
+    --secondaryGray: #333333;
+
+    --onBackgroundText: #FFFFFF;
+}
+
+::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 3px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: var(--primarySurfaceColor);
+}
+
+::-webkit-scrollbar
+{
+	width: 5px;
+	background-color: var(--primarySurfaceColor);
+}
+
+::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 3px rgba(0,0,0,.3);
+	background-color: var(--secondaryBlue);
+}
+
+@keyframes startPageAnim {
+    from {opacity: 0%}
+    to {opacity: 100%}
+}
+
+body  {
+    background: url('../assets/background.png');
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+#mainContent {
+    animation-name: startPageAnim;
+    animation-duration: 2s;
+    transition: opacity 2s ease-in-out;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+}
+
+header .mainHeaderTitle {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.tryMainButton {
+    background: #121212;
+
+    border-radius: 24px;
+
+    height: 70px;
+    width: 350px;
+
+    border: 1px solid var(--primaryPurple);
+
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+
+    font-size: 16px;
+    
+    transition: .5s ease-in-out;
+
+    cursor: pointer;
+}
+
+.tryMainButton:hover {
+    border: 1px solid var(--secondaryBlue);
+
+    height: 80px;
+    width: 380px;
+}
+
+.reasonsDivWrapper {
+
+    padding: 20px;
+
+    margin-top: 24px;
+
+    min-height: 300px;
+
+    min-width: 700px;
+    max-width: 950px;
+
+    background: var(--primarySurfaceColor);
+
+    border-radius: 32px;
+}
+
+.igoReason {
+    background: var(--secondaryGray);
+    
+    height: 200px;
+    width: 400px;
+
+    border-radius:25px;
+
+    color: var(--onBackgroundText);
+
+    padding: 10px;
+
+    margin-top: 15px;
+}
+
+.igoBoxesWrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.socialMediaButtons {
+    display: flex;
+    justify-content: center;
+}
+
+.socialMediaButtons img {
+    height: 100px;
+    width: 100px;
+
+    margin-right: 10px;
+
+    filter: gray;
+    -webkit-filter: grayscale(1);
+    -webkit-transition: all .4s ease-in-out;
+
+    cursor: pointer;
+}
+
+.socialMediaButtons img:hover {
+    filter: none;
+    -webkit-filter: grayscale(0);
+    -webkit-transform: scale(1.01);
+}
+
+.socialMediaButtons button {
+    border: none;
+    background: none;
+}
