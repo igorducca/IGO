@@ -18,3 +18,5 @@
 ---
 
 ## Project badges
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/24b10fe1-cbb1-4b7c-990c-17ffb55d1e9f/deploy-status)](https://app.netlify.com/sites/igo-io/deploys)
