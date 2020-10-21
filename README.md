@@ -13,7 +13,7 @@
 
 ### Where you can find me? Today, i'm waiting for hires on my [Fiverr](https://www.fiverr.com/igorfelipeduca) or in my E-mail too: igorfelipeduca@gmail.com
 
-### Or if you want more details or more reasons to hire me, just came in my website! Click [here](https://igo-io.netlify.app/)
+### Or if you want more details or more reasons to hire me, just come in my website! Click [here](https://igo-io.netlify.app/)
 
 ---
 
